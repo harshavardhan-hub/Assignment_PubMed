@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "get-papers-list"
+version = "0.1.0"
+description = "Fetch PubMed research papers with pharmaceutical/biotech company affiliations."
+authors = ["Your Name <your_email@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+biopython = "^1.80"
+
+[tool.poetry.scripts]
+get-papers-list = "get_papers_list.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
