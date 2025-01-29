@@ -79,6 +79,6 @@ To see debug information, use the -d option:
 •	logging: To provide detailed logs during execution, especially when debug mode is enabled.
 These dependencies are automatically managed by Poetry and installed with the poetry install command.
 
-# Tools Used
+## Tools Used
 •	ChartGPT: Assisted in generating the structure and functionality of the program, including the logic for handling the PubMed API and CSV output.
 •	Replit.ai: Used for testing and prototyping the code in an online IDE environment to quickly develop and iterate on the solution.
